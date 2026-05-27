@@ -16,7 +16,7 @@ It's important to note this is made for arch and arch-based distros, minus any a
 
 For this project, I'm creating a pre-configured **labwc** session with only the bindings needed to use it as a conduit for **Waylandcraft**. It's important to note, **labwc** is only meant as a conduit to turn **Waylandcraft** into a session, as the actual WM stuff is supposed to be done inside it.
 
-The bindings for **labwc** are: "Super+q" to quit, and "Super-r" to reconfigure.
+The bindings for **labwc** are: "Super+q" to quit, and "Super+r" to reconfigure.
 
 The project comes with a .desktop file, which executes the start script for **labwc**, so that it uses the config file already pre-configured and opens **wlcontrol** and **prism-launcher**.
 
