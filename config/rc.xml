@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<openbox_config>
+
+  <keyboard>
+    <keybind key="W-q">
+      <action name="Exit"/>
+    </keybind>
+    <keybind key="W-r">
+      <action name="Reconfigure"/>
+    </keybind>
+  </keyboard>
+
+  <windowRules>
+    <windowRule identifier="wlcontrol" alwaysOnTop="yes"/>
+    <windowRule identifier="*" serverDecoration="no"/>
+</windowRules>
+
+</openbox_config>

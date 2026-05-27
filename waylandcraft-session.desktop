@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Name=Waylandcraft Session
+Comment=Minimal labwc session preconfigured for Minecraft Waylandcraft
+Exec=/usr/bin/start-waylandcraft.sh
+TryExec=/usr/bin/start-waylandcraft.sh
+Type=Application
