@@ -1,8 +1,8 @@
 # Maintainer: Mocha Hois <Mochaaaaaa@cybertari.net>
 pkgname=waylandcraft-session-git
 pkgver=1.0.0
-pkgrel=2
-pkgdesc="Minimal labwc session preconfigured for Minecraft Waylandcraft with Prism Launcher"
+pkgrel=1
+pkgdesc="Minimal labwc session preconfigured to run Minecraft Waylandcraft as a session."
 arch=('x86_64')
 url="https://github.com/NerdPupX3/Waylandcraft-Session"
 license=('GPL-3.0-or-later')
