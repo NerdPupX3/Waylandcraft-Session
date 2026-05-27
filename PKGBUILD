@@ -4,10 +4,10 @@ pkgver=1.0.0
 pkgrel=2
 pkgdesc="Minimal labwc session preconfigured for Minecraft Waylandcraft with Prism Launcher"
 arch=('x86_64')
-url="https://github.com/YourUser/waylandcraft-session"
+url="https://github.com/NerdPupX3/Waylandcraft-Session"
 license=('GPL-3.0-or-later')
 depends=('labwc' 'prism-launcher' 'wlcontrol' 'pavucontrol')
-source=("git+https://github.com/YourUser/waylandcraft-session.git")
+source=("git+https://github.com/NerdPupX3/Waylandcraft-Session.git")
 sha256sums=('SKIP')
 
 package() {
