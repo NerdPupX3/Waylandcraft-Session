@@ -6,7 +6,7 @@ pkgdesc="Minimal labwc session preconfigured to run Minecraft Waylandcraft as a 
 arch=('x86_64')
 url="https://github.com/NerdPupX3/Waylandcraft-Session"
 license=('GPL-3.0-or-later')
-depends=('labwc' 'prism-launcher' 'wlcontrol' 'pavucontrol')
+depends=('labwc' 'prismlauncher' 'wlcontrol' 'pavucontrol')
 source=("git+https://github.com/NerdPupX3/Waylandcraft-Session.git")
 sha256sums=('SKIP')
 
