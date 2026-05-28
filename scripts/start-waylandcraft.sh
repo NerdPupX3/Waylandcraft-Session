@@ -27,7 +27,7 @@ if [ -z "$XDG_RUNTIME_DIR" ]; then
     fi
 fi
 
-STARTUP="wifi-manager & prismlauncher & wlcontrol &"
+STARTUP="prismlauncher & wlcontrol &"
 
 exec dbus-run-session -- labwc \
     -c ~/.config/labwc-waylandcraft/rc.xml \
