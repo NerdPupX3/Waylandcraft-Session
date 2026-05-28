@@ -11,15 +11,15 @@ source=("git+https://github.com/NerdPupX3/Waylandcraft-Session.git")
 sha256sums=('SKIP')
 
 package() {
-    install -Dm644 "$srcdir/src/waylandcraft-session/rc.xml" \
+    install -Dm644 "$srcdir/Waylandcraft-Session/rc.xml" \
         "$pkgdir/usr/share/waylandcraft/rc.xml"
-    install -Dm755 "$srcdir/src/waylandcraft-session/scripts/start-waylandcraft.sh" \
+    install -Dm755 "$srcdir/Waylandcraft-Session/scripts/start-waylandcraft.sh" \
         "$pkgdir/usr/bin/start-waylandcraft.sh"
-    install -Dm644 "$srcdir/src/waylandcraft-session/waylandcraft-session.desktop" \
+    install -Dm644 "$srcdir/Waylandcraft-Session/waylandcraft-session.desktop" \
         "$pkgdir/usr/share/wayland-sessions/waylandcraft-session.desktop"
-    install -Dm755 "$srcdir/src/waylandcraft-session/scripts/waylandcraft-setup.sh" \
+    install -Dm755 "$srcdir/Waylandcraft-Session/scripts/waylandcraft-setup.sh" \
         "$pkgdir/etc/profile.d/waylandcraft-setup.sh"
-    install -dm755 "$srcdir/src/waylandcraft-session/instances" \
+    install -dm755 "$srcdir/Wylandcraft-Session/instances" \
         "$pkgdir/usr/share/waylandcraft/instances"
     cp -a "$srcdir/waylandcraft-session/instances/Waylandcraft Extended" \
         "$pkgdir/usr/share/waylandcraft/instances/"
