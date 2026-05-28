@@ -17,7 +17,7 @@
 
 # Runs once per user on first login to set up Waylandcraft
 INSTANCES_SRC="/usr/share/waylandcraft/instances"
-PRISM_DIR="$HOME/.local/share/prism-launcher/instances"
+PRISM_DIR="$HOME/.local/share/PrismLauncher/instances"
 CONFIG_SRC="/usr/share/waylandcraft/rc.xml"
 CONFIG_DEST="$HOME/.config/labwc-waylandcraft/rc.xml"
 FLAG_FILE="$HOME/.local/share/waylandcraft/.setup-done"
